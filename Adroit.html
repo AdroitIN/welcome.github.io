@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!--<img src="header-image.jpg" alt="Header Image">-->
+        <h1>Welcome to Debanjan's page</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Inside the <section id="about"> ... </section> -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am a student of Ramakrishna Mission Vivekananda Centenary College.</p>
+    <p>Education:</p>
+    <ul>
+        <li>Secondary Examination: Sasati Nahala Abinash High School, 90.42%</li>
+        <li>Higher Secondary (HS): Sasati Nahala Abinash High School, 87.4%</li>
+    </ul>
+    <p>I am pursuing a degree in Computer Science and have a keen interest in theoretical computer science and mathematics research.</p>
+    <p>I am proficient in programming languages:</p>
+    <ul>
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>Python</li>
+    </ul>
+    <p>Currently, I am eager to explore the field of quantum computing and am looking forward to working on projects in this exciting area.</p>
+</section>
+        
+        <section id="operations">
+            <h2>Operations ( If you have no work to do then you can check these 😅)</h2>
+            <div class="operation">
+                <h3>Operation 1: Temperature Conversion</h3>
+                <label for="temperature">Enter Temperature:</label>
+                <input type="number" id="temperature" placeholder="Enter temperature">
+                <select id="unit">
+                    <option value="celsius">Celsius</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                </select>
+                <button onclick="convertTemperature()">Convert</button>
+                <p id="resultTemperature"></p>
+            </div>
+            
+            <div class="operation">
+                <h3>Operation 2: Calculate Age</h3>
+                <label for="birthDate">Enter Birth Date:</label>
+                <input type="date" id="birthDate">
+                <button onclick="calculateAge()">Calculate</button>
+                <p id="resultAge"></p>
+            </div>
+        </section>
+		<section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you have any questions or inquiries, feel free to email us at <a href="mailto:debanjan410353@gmail.com">debanjan410353@gmail.com</a>.</p>
+</section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
